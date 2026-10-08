@@ -63,5 +63,5 @@ def add_item(item, items=None):
     items.append(item)
     return items
 ```
-4. I think it was on the first execution of the method, but it might be on start of code before method call, im not sure.
+4. The default list is created when the function definition is executed,before the first function call.
 ---
